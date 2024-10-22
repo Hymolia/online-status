@@ -1,6 +1,6 @@
 <?php
 
-namespace Zaichaopan\OnlineStatus\Listeners;
+namespace Hymolia\OnlineStatus\Listeners;
 
 class LogoutListener
 {
