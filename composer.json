@@ -1,5 +1,5 @@
 {
-    "name": "hymolia/online-status",
+    "name": "hymolia/online-status-laravel",
     "description": "A package to show user online status in your laravel app",
     "type": "library",
     "keywords": [
@@ -10,8 +10,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "zaichaopan",
-            "email": "zaichaopan@gmail.com"
+            "name": "Hymolia",
+            "email": "abuse@hymolia.eu"
         }
     ],
     "minimum-stability": "stable",
