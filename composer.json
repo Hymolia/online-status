@@ -1,5 +1,5 @@
 {
-    "name": "zaichaopan/online-status",
+    "name": "hymolia/online-status",
     "description": "A package to show user online status in your laravel app",
     "type": "library",
     "keywords": [
