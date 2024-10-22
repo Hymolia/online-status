@@ -7,7 +7,7 @@ This packages adds functionality to show user online status, online users and on
 This packages uses __redis__ behind the screen. So please install redis in your machine in order to use package.
 
 ```bash
-composer require zaichaopan/online-status
+composer require hymolia/online-status-laravel
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ composer require zaichaopan/online-status
 
 ```php
 //...
-use Zaichaopan\OnlineStatus\HasOnlineStatus;
+use Hymolia\OnlineStatus\HasOnlineStatus;
 
 class User extends Model
 {
@@ -52,7 +52,7 @@ class Kernel extends HttpKernel
     protected $middlewareGroups = [
         'web' => [
            \\...
-           \Zaichaopan\OnlineStatus\Middleware\UserOnline::class
+           \Hymolia\OnlineStatus\Middleware\UserOnline::class
         ],
         //...
     ];
@@ -128,11 +128,11 @@ This packages raises two events during the updating user online status process. 
  * @var array
  */
 protected $listen = [
-    'Zaichaopan\OnlineStatus\Events\Online' => [
+    'Hymolia\OnlineStatus\Events\Online' => [
         'App\Listeners\Online',
     ],
 
-    'Zaichaopan\OnlineStatus\Events\Offline' => [
+    'Hymolia\OnlineStatus\Events\Offline' => [
         'App\Listeners\Offline',
     ]
 ];
