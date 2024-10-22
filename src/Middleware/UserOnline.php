@@ -1,6 +1,6 @@
 <?php
 
-namespace Zaichaopan\OnlineStatus\Middleware;
+namespace Hymolia\OnlineStatus\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
