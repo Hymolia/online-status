@@ -1,6 +1,6 @@
 <?php
 
-namespace Zaichaopan\OnlineStatus;
+namespace Hymolia\OnlineStatus;
 
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 
@@ -13,7 +13,7 @@ class OnlineStatusEventServiceProvider extends ServiceProvider
      */
     protected $listen = [
         'Illuminate\Auth\Events\Logout' => [
-            'Zaichaopan\OnlineStatus\Listeners\LogoutListener',
+            'Hymolia\OnlineStatus\Listeners\LogoutListener',
         ],
     ];
 
