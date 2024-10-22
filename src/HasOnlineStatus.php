@@ -1,11 +1,11 @@
 <?php
 
-namespace Zaichaopan\OnlineStatus;
+namespace Hymolia\OnlineStatus;
 
 use Illuminate\Support\Facades\Redis;
 use Illuminate\Database\Eloquent\Builder;
-use Zaichaopan\OnlineStatus\Events\UserOnline;
-use Zaichaopan\OnlineStatus\Events\UserOffline;
+use Hymolia\OnlineStatus\Events\UserOnline;
+use Hymolia\OnlineStatus\Events\UserOffline;
 
 trait HasOnlineStatus
 {
