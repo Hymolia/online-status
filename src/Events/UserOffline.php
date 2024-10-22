@@ -1,6 +1,6 @@
 <?php
 
-namespace Zaichaopan\OnlineStatus\Events;
+namespace Hymolia\OnlineStatus\Events;
 
 use Illuminate\Queue\SerializesModels;
 
