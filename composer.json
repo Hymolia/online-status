@@ -1,0 +1,45 @@
+{
+    "name": "zaichaopan/online-status",
+    "description": "A package to show user online status in your laravel app",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "online",
+        "redis"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zaichaopan",
+            "email": "zaichaopan@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1.0",
+        "illuminate/support": "~5.5.0|~5.6.0",
+        "predis/predis": "^1.1"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.5.0",
+        "phpunit/phpunit": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zaichaopan\\OnlineStatus\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php",
+            "tests/stubs/User.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zaichaopan\\OnlineStatus\\OnlineStatusEventServiceProvider"
+            ]
+        }
+    }
+}
